@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment / Secret Keys
+.env
+serviceAccountKey.json
+
+# Local Data & Media Storage
+traffic-safety-python/backend/uploads/*
+!traffic-safety-python/backend/uploads/.gitkeep
+traffic-safety-python/backend/local_db.json
+runs/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
